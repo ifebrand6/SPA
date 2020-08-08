@@ -1,8 +1,4 @@
-/* Generated on: Wed May 15 2019 11:22:03 GMT+0000 (UTC) */
-/* ==========================================================================
-normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
-========================================================================== */
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -2694,7 +2690,7 @@ figcaption {
 
 .navigation {
     display: -webkit-box;
-    display: -webkit-flex;
+    /* display: -webkit-flex; */
     display: -ms-flexbox;
     display: flex;
     padding: 30px 50px;
@@ -2703,6 +2699,7 @@ figcaption {
     -ms-flex-align: center;
     align-items: center;
     background-color: transparent;
+
 }
 
 .logo-image {
@@ -2826,22 +2823,22 @@ figcaption {
 }
 
 .work-image.cc-work-1 {
-    background-image: url("https://assets.website-files.com/5c6e6f46bf98b2013cf621c5/5cdbececb102f913e509144f_portfolio%201%20-%20wide.svg");
+    background-image: url("assets/blck.png");
     background-size: cover;
 }
 
 .work-image.cc-work-2 {
-    background-image: url("https://assets.website-files.com/5c6e6f46bf98b2013cf621c5/5cdbececb102f96f5809144e_portfolio%202%20-%20wide.svg");
+    background-image: url("assets/ts.png");
     background-size: cover;
 }
 
 .work-image.cc-work-4 {
-    background-image: url("https://assets.website-files.com/5c6e6f46bf98b2013cf621c5/5cdbececded4a0184e7de84b_portfolio%203%20-%20wide.svg");
+    background-image: url("assets/c1.png");
     background-size: cover;
 }
 
 .work-image.cc-work-3 {
-    background-image: url("https://assets.website-files.com/5c6e6f46bf98b2013cf621c5/5cdbececded4a04d627de84c_portfolio%204%20-%20wide.svg");
+    background-image: url("assets/open.png");
     background-size: cover;
 }
 
