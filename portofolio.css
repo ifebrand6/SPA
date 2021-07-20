@@ -1,3 +1,11 @@
+/*  TODO
+  add scroll animation effect to page
+  add zoom effect to image
+  make images for mobile view
+  add google tracking
+  add a blog section
+  
+  */
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -517,7 +525,8 @@ figcaption {
 .heading-jumbo {
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 64px;
+    font-size: 42px;
+    font-weight: 600;
     line-height: 80px;
     text-transform: none;
 }
@@ -769,7 +778,9 @@ figcaption {
     -ms-flex-align: center;
     align-items: center;
 }
-
+.work-description .paragraph-light{
+    text-align: center !important;
+}
 .work-experience-grid {
     margin-bottom: 140px;
     grid-column-gap: 30px;
@@ -833,8 +844,12 @@ figcaption {
     opacity: 0.7;
 }
 
+.work-image.cc-work-6 {
+    background-image: url("assets/dkt.png");
+    background-size: cover;
+}
 .work-image.cc-work-1 {
-    background-image: url("assets/blck.png");
+    background-image: url("assets/ts.png");
     background-size: cover;
 }
 
@@ -850,6 +865,11 @@ figcaption {
 
 .work-image.cc-work-3 {
     background-image: url("assets/open.png");
+    background-size: cover;
+}
+
+.work-image.cc-work-5 {
+    background-image: url("assets/completevisit.png");
     background-size: cover;
 }
 

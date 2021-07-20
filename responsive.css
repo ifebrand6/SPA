@@ -1,0 +1,14 @@
+@media screen {
+    
+}
+
+.heading-jumbo {
+    font-size: 27px;
+}
+.heading-jumbo :next-element{
+    font-size: 12px; 
+    line-height: 30px;
+}
+.works-grid {
+    margin-bottom: 10px;
+}
